@@ -36,10 +36,13 @@ case $INPUT_CASE in
     INPUT_DIR="$INPUT_BASE/Run2/pp_5.02TeV/real/LHC17p_pass1_CENT_woSDD"
     ;;
   2) # reference
-    INPUT_LABEL="Run 2, p-p 5.02 TeV LHC17p, MC LHC18a4a2_cent"
-    INPUT_DIR="$INPUT_BASE/Run2/pp_5.02TeV/sim/LHC18a4a2_cent/282099"
-    INPUT_IS_MC=1
-    INPUT_TASK_CONFIG="DOO2_CONV_ZDC=1 DOO2_CONV_BC=1 DOO2_CONV_TRKEX=1"
+    INPUT_LABEL="Test local"
+    INPUT_DIR="/Users/millot/alice/MyWork/AO2D_Downloads/data/000282008/pass1_FAST"
+    INPUT_FILES="AliESDs.root"
+    INPUT_IS_O2=0
+    INPUT_IS_MC=0
+    INPUT_RUN=2 
+    INPUT_SYS="pp"
     ;;
   3)
     INPUT_LABEL="Run 2, p-p 5.02 TeV LHC17p, MC LHC18a4a2_cent"
