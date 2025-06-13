@@ -314,7 +314,7 @@ void doTemplate(
           cTemplate->SaveAs(Form("%s/template_%d_%d.png", outputPlotsName, ipTtrig, iMult));
       }
     } // end of pT trig loop
-  }   // end of mult loop
+  } // end of mult loop
 
   //  save the results
   outputFile = new TFile(Form("%s", outputFileName), "recreate");
