@@ -236,8 +236,8 @@ void doPhiProjections(
         }
 
       } // loop over the index of the associated particle
-    }   // loop over the index of the trigger particle
-  }     // loop over the index of the multiplicity interval
+    } // loop over the index of the trigger particle
+  } // loop over the index of the multiplicity interval
 
   outfile->Close();
 
