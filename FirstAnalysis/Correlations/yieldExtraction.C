@@ -180,7 +180,7 @@ void yieldExtraction(const char* inFileName = "dphi_corr.root", double absDeltaE
       gridgeYield->Write(Form("ridgeYield_%u_%u", itrig, iassoc));
 
     } // loop over the index of the associated particle
-  }   // loop over the index of the trigger particle
+  } // loop over the index of the trigger particle
 
   outfile->Close();
 
